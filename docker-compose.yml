@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  razorpagemovie:
+    image: razorpagemovie
+    build:
+      context: .
+      dockerfile: RazorPageMovie\Dockerfile
